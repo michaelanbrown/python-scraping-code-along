@@ -20,3 +20,6 @@ class Scraper:
 
         #     new_course = Course(title, date, description)
         #     self.courses.append(new_course)
+
+    def get_courses(self):
+        return self.get_page().select('.post')
