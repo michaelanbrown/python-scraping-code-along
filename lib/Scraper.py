@@ -1,8 +1,10 @@
-from bs4 import BeautifulSoup
+
+from bs4 import BeautifulSoup 
 import requests
-from Course import Course
 import ipdb
 
-
 class Scraper:
-    pass
+
+    def __init__(self):
+      self.courses = []
+
